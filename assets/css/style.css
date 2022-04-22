@@ -34,6 +34,18 @@
     height: 580px; 
     margin-top: 3rem;
   }
+
+  .testimonial-area .testimonial-item.testi-item-2 {
+    margin-left: -3rem;
+    margin-top: -2rem;
+    width: 500px;
+  }
+  
+  .testimonial-area .testi-img2 {
+    /* margin-top: -1rem;
+    margin-left: 2rem; */
+    width: 550px;
+  } 
 }
 
 @media only screen and (max-width: 991px) {
@@ -55,11 +67,109 @@
     font-size: 1.2em;
     width: 300px;
   }
+
+  /* VISION SECTION */
+  .testimonial-area .testimonial-item {
+    width: 500px;
+    height: 50px;
+  }
+
+  .testimonial-area .testimonial-item.testi-item-1 {
+    margin-left: 2rem;
+    margin-top: -3rem;
+  }
+  .testimonial-area .testimonial-item.testi-item-2 {
+    margin-left: -10rem;
+  }
+  .testimonial-area .testi-img1 {
+    width: 600px;
+    height: 200px;
+  }
+  .testimonial-area .testi-img2 {
+    margin-top: 10rem;
+    margin-left: 5rem;
+    width: 400px;
+    height: 70px;
+  }
+
+  .our-values {
+    margin-top: 5rem;
+  }
+
+  .our-values .accordion {
+    margin-right: 10rem;
+  }
+
+  .our-values .value_img {
+    margin-left: 5rem;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .main-content {
     margin-top: 7rem;
+  }
+
+  /* What we do Section */
+  .testimonial-area.we-do-testi .testimonial-item {
+    margin-top: -7rem;
+    width: 470px;
+  }
+  .testimonial-area.we-do-testi .testi-img img{
+    width: 1050px;
+  }
+
+  /* VISION SECTION */
+  .page-header-area {
+    margin-top: -7rem;
+  }
+
+  .testimonial-area .testimonial-item {
+    width: 380px;
+    height: 50px;
+  }
+  
+  .testimonial-area .testimonial-item.testi-item-1 {
+    margin-left: 2rem;
+    margin-top: -7rem;
+  }
+  
+  .testimonial-area .testimonial-item.testi-item-2 {
+    margin-left: -6rem;
+    margin-top: -16rem;
+  }
+  
+  .testimonial-area .testi-img1 {
+    width: 750px;
+    height: 250px;
+  }
+  
+  .testimonial-area .testi-img2 {
+    margin-top: -5rem;
+    margin-left: 2rem;
+    width: 300px;
+    height: 70px;
+  }
+
+  .testi-inner-content .aboutp1{
+    font-size: 14px;
+  }
+  
+  .service-details-area .aboutp2{
+    width: 700px;
+  }
+
+  .our-values {
+    margin-top: 5rem;
+  }
+  
+  .our-values .accordion {
+    margin-right: 10rem;
+  }
+  
+  .our-values .value_img {
+    margin-left: 4rem;
+    width: 500px;
   }
 
 }
@@ -87,6 +197,73 @@
     font-size: 0.8em;
     width: 200px;
     text-align: left;
+  }
+
+  /* What we do Section */
+
+  .we-do-testi {
+    margin-bottom: 15rem;
+  }
+  
+  .testimonial-area.we-do-testi .testimonial-item {
+    margin-top: -7rem;
+    width: 370px;
+  }
+  
+  .testimonial-area.we-do-testi .testi-img img {
+    width: 1050px;
+  }
+
+  /* VISION SECTION */
+  
+  .testimonial-area .testimonial-item {
+    width: 340px;
+  }
+  
+  .testimonial-area .testimonial-item.testi-item-1 {
+    /* margin-left: 2rem;
+    margin-top: -7rem; */
+  }
+  
+  .testimonial-area .testimonial-item.testi-item-2 {
+    margin-left: -27rem;
+    margin-top: -1rem;
+    width: 340px;
+  }
+  
+  /* .testimonial-area .testi-img1 {
+    width: 750px;
+    height: 250px;
+    margin-top: 20rem;
+    margin-left: -10rem;
+  } */
+  
+  .testimonial-area .testi-img2 {
+    margin-top: -2rem;
+    /* margin-left: 2rem; */
+    width: 300px;
+    height: 70px;
+  }
+  
+  .testi-inner-content .aboutp1 {
+    font-size: 14px;
+  }
+  
+  .service-details-area .aboutp2 {
+    width: 350px;
+    font-size: 14px;
+  }
+  
+  .our-values {
+    margin-top: 5rem;
+  }
+  
+  .our-values .accordion {
+    margin-right: 1rem;
+  }
+  
+  .our-values .value_img {
+    width: 320px;
   }
 }
 
@@ -117,6 +294,78 @@
     font-size: 0.8em;
     width: 200px;
     text-align: left;
+  }
+
+  /* Services */
+
+  /* What we do Section */
+
+  .we-do-testi {
+    margin-bottom: 15rem;
+  }
+  
+  .testimonial-area.we-do-testi .testimonial-item {
+    margin-top: -7rem;
+    width: 350px;
+  }
+  
+  .testimonial-area.we-do-testi .testi-img img {
+    width: 1050px;
+  }
+
+  /* VISION SECTION */
+
+  .page-header-area {
+    margin-top: -2rem;
+  }
+  
+  .testimonial-area .testimonial-item {
+    width: 340px;
+  }
+  
+  .testimonial-area .testimonial-item.testi-item-1 {
+    margin-left: 0;
+  }
+  
+  .testimonial-area .testimonial-item.testi-item-2 {
+    margin-left: -28rem;
+    margin-top: 0.5;
+    width: 340px;
+  }
+  
+  /* .testimonial-area .testi-img1 {
+      width: 750px;
+      height: 250px;
+      margin-top: 20rem;
+      margin-left: -10rem;
+    } */
+  
+  .testimonial-area .testi-img2 {
+    margin-top: -2rem;
+    margin-left: 1rem;
+    width: 300px;
+    height: 70px;
+  }
+  
+  .testi-inner-content .aboutp1 {
+    font-size: 14px;
+  }
+  
+  .service-details-area .aboutp2 {
+    width: 350px;
+    font-size: 14px;
+  }
+  
+  .our-values {
+    margin-top: 5rem;
+  }
+  
+  .our-values .accordion {
+    margin-right: 1rem;
+  }
+  
+  .our-values .value_img {
+    width: 280px;
   }
 }
 
