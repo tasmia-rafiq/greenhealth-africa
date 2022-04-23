@@ -36,6 +36,14 @@
 }
 
 @media only screen and (max-width: 1199px) {
+  .main-content .mainContainer .bg-img img {
+    height: 570px;
+  }
+
+  .main-content .mainContainer {
+    margin-top: -5.5rem;
+  }
+
   /* What we do Section */
   .testimonial-area.we-do-testi {
     padding-bottom: 10rem;
@@ -57,11 +65,6 @@
     margin-left: 2rem;
   }
 
-  .main-content .mainContainer .bg-img img {
-    height: 580px;
-    margin-top: 3rem;
-  }
-
   .testimonial-area .testimonial-item.testi-item-2 {
     margin-left: -3rem;
     margin-top: -2rem;
@@ -80,19 +83,24 @@
     height: 75px;
   }
 
+  .main-content .mainContainer {
+    margin-top: 0;
+  }
+
   .main-content .mainContainer .bg-img img {
     margin-left: 5rem;
     height: 500px;
   }
 
   .main-content .mainContainer .text1 {
-    width: 400px;
-    font-size: 42px;
+    width: 500px;
+    font-size: 48px;
   }
 
   .main-content .mainContainer .txtMain{
-    font-size: 1.2em;
-    width: 300px;
+    font-size: 1.3em;
+    width: 400px;
+    text-align: left;
   }
 
   /* What We Do Section */
@@ -163,7 +171,18 @@
 
 @media only screen and (max-width: 768px) {
   .main-content {
-    margin-top: 7rem;
+    margin-top: 0;
+  }
+
+  .main-content .mainContainer .text1 {
+    width: 500px;
+    font-size: 44px;
+  }
+  
+  .main-content .mainContainer .txtMain {
+    font-size: 1.2em;
+    width: 350px;
+    text-align: left;
   }
 
   /* Where we work Section */
@@ -255,6 +274,24 @@
 }
 
 @media only screen and (max-width: 696px) {
+  .main-content .mainContainer .bg-img img {
+    height: 380px;
+  }
+
+  .main-content .mainContainer .text-block {
+    margin-top: 8rem;
+  }
+  .main-content .mainContainer .text1 {
+    width: 350px;
+    font-size: 40px;
+  }
+  
+  .main-content .mainContainer .txtMain {
+    font-size: 1em;
+    width: 250px;
+    text-align: left;
+  }
+
   /* What we do Section */
   .we-do-testi {
     padding-bottom: 15rem;
@@ -274,6 +311,25 @@
 }
 
 @media only screen and (max-width: 540px) {
+  .main-content .mainContainer .bg-img img {
+    height: 300px;
+  }
+  
+  .main-content .mainContainer .text-block {
+    margin-top: 6rem;
+  }
+  
+  .main-content .mainContainer .text1 {
+    width: 260px;
+    font-size: 28px;
+  }
+  
+  .main-content .mainContainer .txtMain {
+    font-size: 0.7em;
+    width: 200px;
+    text-align: left;
+  }
+
   /* What we do Section */
 
   .testimonial-area.we-do-testi {
@@ -304,16 +360,15 @@
 
 @media only screen and (max-width: 414px) {
   .main-content {
-    margin-top: 6rem;
+    margin-top: 0;
   }
 
   .main-content .mainContainer .bg-img img {
-    height: 300px;
-    width: 900px;
+    height: 290px;
   }
 
   .main-content .mainContainer .text-block {
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
 
   .main-content .mainContainer .text1 {
@@ -322,8 +377,8 @@
   }
 
   .main-content .mainContainer .txtMain {
-    font-size: 0.8em;
-    width: 200px;
+    font-size: 0.7em;
+    width: 170px;
     text-align: left;
   }
 
@@ -441,11 +496,11 @@
 
 @media only screen and (max-width: 375px) {
   .main-content {
-    margin-top: 0.5rem;
+    margin-top: 0;
   }
 
   .main-content .mainContainer .text-block {
-    margin-top: 17rem;
+    margin-top: 7rem;
   }
 
   .responsive-header {
@@ -453,8 +508,8 @@
   }
 
   .main-content .mainContainer .bg-img img {
-    height: 300px;
-    margin-top: 9rem;
+    height: 250px;
+    /* margin-top: 9rem; */
   }
 
   .main-content .mainContainer .text1 {
@@ -463,8 +518,8 @@
   }
 
   .main-content .mainContainer .txtMain {
-    font-size: 0.8em;
-    width: 200px;
+    font-size: 0.7em;
+    width: 160px;
     text-align: left;
   }
 
@@ -568,6 +623,33 @@
 }
 
 @media only screen and (max-width: 320px) {
+  .main-content {
+    margin-top: 0;
+  }
+  
+  .main-content .mainContainer .text-block {
+    margin-top: 6rem;
+  }
+  
+  .responsive-header {
+    height: 70px;
+  }
+  
+  .main-content .mainContainer .bg-img img {
+    height: 250px;
+    /* margin-top: 9rem; */
+  }
+  
+  .main-content .mainContainer .text1 {
+    width: 210px;
+    font-size: 22px;
+  }
+  
+  .main-content .mainContainer .txtMain {
+    font-size: 0.6em;
+    width: 140px;
+    text-align: left;
+  }
   /* What we do Section */
 
   .testimonial-area.we-do-testi {
