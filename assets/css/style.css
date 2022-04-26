@@ -115,11 +115,11 @@
     margin-left: 2rem;
   }
 
-  .testimonial-area .testimonial-item.testi-item-2 {
+  /* .testimonial-area .testimonial-item.testi-item-2 {
     margin-left: -3rem;
     margin-top: -2rem;
     width: 500px;
-  }
+  } */
 
   .testimonial-area .testi-img2 {
     /* margin-top: -1rem;
@@ -174,32 +174,38 @@
   }
 
   /* VISION SECTION */
-  .testimonial-area.vision-mission .testimonial-item {
-    width: 550px;
-    height: 50px;
+  
+  /* Row no. 1 - Start */
+  .testimonial-area.vision-mission .testi-img1 {
+    width: 900px;
+    height: 320px;
   }
 
-  .testimonial-area.vision-mission .testimonial-item.testi-item-1 {
-    /* margin-left: 2rem; */
-    margin-top: -2rem;
+  .testimonial-area.vision-mission .testimonial-item.testi-item-1{
+    height: 320px;
   }
 
+  .testimonial-area.vision-mission .testimonial-item.testi-item-1 .testi-inner-content .aboutp1{
+    font-size: 17px;
+  }
+  /* Row no. 1 - End */
+
+  /* Row no. 2 - Start */
+
+  .testimonial-area.vision-mission .testi-img2 {
+    width: 100%;
+    height: 320px;
+  }
+  
   .testimonial-area.vision-mission .testimonial-item.testi-item-2 {
-    margin-left: -6rem;
-    margin-top: 2rem;
+    padding-top: 60px;
+    height: 320px;
   }
-
-  .testimonial-area.vision-mission .testi-img1 img {
-    /* width: 480px; */
-    /* height: 300px; */
+  
+  .testimonial-area.vision-mission .testimonial-item.testi-item-2 .testi-inner-content .aboutp1 {
+    font-size: 17px;
   }
-
-  .testimonial-area.vision-mission .testi-img2 img {
-    margin-top: 10rem;
-    margin-left: 1rem;
-    width: 500px;
-    height: 330px;
-  }
+  /* Row no.2 - End */
 
   .our-values {
     padding-top: 1rem;
@@ -228,7 +234,7 @@
     width: 500px;
     font-size: 44px;
   }
-  
+
   .main-content .mainContainer .txtMain {
     font-size: 1.2em;
     width: 350px;
@@ -332,7 +338,7 @@
     width: 350px;
     font-size: 40px;
   }
-  
+
   .main-content .mainContainer .txtMain {
     font-size: 1em;
     width: 250px;
@@ -361,16 +367,16 @@
   .main-content .mainContainer .bg-img img {
     height: 300px;
   }
-  
+
   .main-content .mainContainer .text-block {
     margin-top: 6rem;
   }
-  
+
   .main-content .mainContainer .text1 {
     width: 260px;
     font-size: 28px;
   }
-  
+
   .main-content .mainContainer .txtMain {
     font-size: 0.7em;
     width: 200px;
@@ -689,7 +695,7 @@
   .about-area .about-content .aboutp1 {
     /* width: 300px; */
   }
-  
+
   /* About Us */
   .about-area.about-default-wrapper .about-content .aboutp1 {
     font-size: 10px;
@@ -700,25 +706,25 @@
   .main-content {
     margin-top: 0;
   }
-  
+
   .main-content .mainContainer .text-block {
     margin-top: 6rem;
   }
-  
+
   .responsive-header {
     height: 70px;
   }
-  
+
   .main-content .mainContainer .bg-img img {
     height: 250px;
     /* margin-top: 9rem; */
   }
-  
+
   .main-content .mainContainer .text1 {
     width: 210px;
     font-size: 22px;
   }
-  
+
   .main-content .mainContainer .txtMain {
     font-size: 0.6em;
     width: 140px;
@@ -4777,11 +4783,28 @@ section .container-fluid {
     Testimonial CSS
 -----------------------------------------------------------------------
 */
+.testimonial-area.vision-mission .testi-row-2 {
+  padding-top: 30px;
+}
+
+.testimonial-area.vision-mission .container {
+  padding-top: 30px;
+  width: 90%;
+}
+
 .testimonial-item .testi-inner-content {
   background-color: #fff;
   padding: 53px 65px 55px;
   overflow: hidden;
 }
+
+@media only screen and (max-width: 1199px) {
+  .testimonial-area.vision-mission .container {
+    padding-top: -10rem;
+    margin-top: 20rem;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .testimonial-item .testi-inner-content {
     padding: 23px 35px 35px;
