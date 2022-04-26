@@ -46,7 +46,7 @@
       <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  <style>
+  <!-- <style>
     .no-js #loader {
       display: none;
     }
@@ -68,13 +68,67 @@
       z-index: 9999;
       background: url('./assets/img/preload-logo.png') center no-repeat #eefecc;
     }
+  </style> -->
+
+  <style>
+    .head-animated {
+      /* background-image: url(/css/images/logo.png);
+      background-repeat: no-repeat;
+      background-position: left top; */
+      /* padding-top: 95px;
+      margin-bottom: 60px; */
+      -webkit-animation-duration: 1.5s;
+      animation-duration: 1.5s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+
+    .tag-animated {
+      -webkit-animation-duration: 1.5s;
+      animation-duration: 1.5s;
+      animation-delay: 0.5s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+
+    @-webkit-keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+      }
+
+      100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-90px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fadeInDown {
+      -webkit-animation-name: fadeInDown;
+      animation-name: fadeInDown;
+    }
   </style>
+
 </head>
 
 <body style="background-color: #161616">
 
-  <!-- PRELOADER -->
+  <!-- PRELOADER
   <div class="se-pre-con"></div>
+  -->
+
   <!--wrapper start-->
   <div class="wrapper">
     <!--== Start Preloader Content ==-->
@@ -180,8 +234,8 @@
                     <div class="">
                       <div class="mainContainer">
                         <div class="text-block">
-                          <p class="text1">Welcome to GreenHealth Africa</p>
-                          <p class="txtMain">
+                          <p class="text1 head-animated fadeInDown">Welcome to GreenHealth Africa</p>
+                          <p class="txtMain tag-animated fadeInDown">
                             A Kenyan International Health and Development
                             Consultancy
                           </p>
