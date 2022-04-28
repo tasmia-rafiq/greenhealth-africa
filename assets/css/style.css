@@ -78,7 +78,7 @@
   animation-name: fadeInDown;
 }
 
-/* 
+/*
 ------------------------------------
       Team Section
 ------------------------------------
@@ -104,7 +104,58 @@
   padding-bottom: 3.5rem;
 }
 
-/* 
+/*
+------------------------------------
+    Service Learn More Btn
+------------------------------------
+*/
+
+.service-btn {
+  margin-top: -2rem;
+  background-color: #c9ff56;
+  padding: 15px 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#service-btn-options {
+  display: none;
+}
+
+#service-btn-options > li {
+  border-radius: 5px;
+  background-color: #eefecc;
+  border-bottom: 1px solid #1616161f;
+  /* padding: 11px 50px; */
+  padding: 11px 50px 11px 20px;
+  left: 0;
+  /* width: 690px; */
+  margin-top: 0;
+}
+
+#service-btn-options > li a {
+  color: #555;
+}
+
+#service-btn-options > li a:hover {
+  color: #1b1b1b;
+  padding-left: 10px;
+}
+
+/* #service-btn-options {
+  -webkit-transform: none;
+  transform: none;
+  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -ms-transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: visible;
+} */
+
+/*
 ------------------------------------
       Where we work section
 ------------------------------------
@@ -114,7 +165,7 @@
 }
 
 
-/* 
+/*
 ------------------------------------
       What we do section
 ------------------------------------
@@ -308,7 +359,7 @@
   }
 
   /* Where we work Section */
-  
+
   .testimonial-area.where-work-testi .testimonial-item .aboutp1{
     font-size: 18px;
   }
@@ -322,7 +373,7 @@
     height: 280px;
     margin-top: 40px;
   }
-  
+
   .testimonial-area.we-do-testi .testimonial-item .aboutp1 {
     font-size: 12px;
     margin-bottom: 7px;
@@ -408,18 +459,18 @@
     padding-right: 50px;
     font-size: 16px;
   }
-  
+
   .about-area.orgs-area .aboutp1 {
     font-size: 14px;
     margin-bottom: 10px;
   }
-  
+
   .about-area.orgs-area .comment h3 {
     font-size: 22px;
     margin-bottom: 0;
     padding-bottom: 10px;
   }
-  
+
   .about-area.orgs-area .comment {
     padding: 0 20px 0 25px;
   }
@@ -431,9 +482,14 @@
   .about-area.orgs-area .comment {
     margin-top: 20px;
   }
-  
+
   .about-area.orgs-area .comment p {
     font-size: 14px;
+  }
+
+  /* Service Button */
+  .service-btn {
+    margin-top: 0;
   }
 
 }
@@ -458,12 +514,12 @@
   }
 
   /* What we do Section */
-  
+
   .testimonial-area.we-do-testi img {
     height: 250px;
     margin-top: 0;
   }
-  
+
   .testimonial-area.we-do-testi .testimonial-item .aboutp1 {
     font-size: 10px;
     margin-bottom: 7px;
@@ -502,7 +558,7 @@
   .testimonial-area.we-do-testi .testimonial-item{
     padding: 20px 20px 0 20px;
   }
-  
+
   .testimonial-area.we-do-testi .testimonial-item .aboutp1 {
     font-size: 12px;
     margin-bottom: 7px;
@@ -526,7 +582,7 @@
 
   .team-area .aboutp1 {
     font-size: 12px;
-  } 
+  }
 
   .team-item .inner-content .thumb img {
     padding: 10px 30px;
@@ -554,6 +610,16 @@
 
   .page-header-area.services-header h2 {
     font-size: 32px;
+  }
+
+  /* Service Button */
+  .service-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  #service-btn-options > li {
+    font-size: 14px;
   }
 }
 
@@ -583,15 +649,15 @@
     padding-left: 3rem;
     padding-right: 3rem;
   }
-  
+
   .testimonial-area.we-do-testi .whatwedo-img {
     margin-top: 0;
   }
-  
+
   .testimonial-area.we-do-testi .testimonial-item {
     padding: 20px 20px 0 20px;
   }
-  
+
   .testimonial-area.we-do-testi .testimonial-item .aboutp1 {
     font-size: 12px;
     margin-bottom: 7px;
@@ -655,15 +721,15 @@
     padding-left: 30px;
     padding-right: 30px;
   }
-  
+
   .testimonial-area.we-do-testi .whatwedo-img {
     margin-top: 0;
   }
-  
+
   .testimonial-area.we-do-testi .testimonial-item {
     padding: 7px 3px 0 3px;
   }
-  
+
   .testimonial-area.we-do-testi .testimonial-item .aboutp1 {
     font-size: 12px;
     margin-bottom: 7px;
@@ -740,18 +806,28 @@
   }
 
   /* Team */
-  
+
   .team-area .team-item {
     padding-left: 30px;
     padding-right: 30px;
   }
-  
+
   .team-area .aboutp1 {
     font-size: 12px;
   }
-  
+
   .team-item .inner-content .thumb img {
     padding: 15px 0;
+  }
+
+  /* Service Button */
+  .service-btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+
+  #service-btn-options > li {
+    font-size: 13px;
   }
 
 }
@@ -790,7 +866,7 @@
   .testimonial-area.where-work-testi .container {
     padding: 30px 20px;
   }
-  
+
   .testimonial-area.where-work-testi .testi-inner-content .aboutp1 {
     font-size: 13px;
   }
@@ -800,15 +876,15 @@
   .testimonial-area.we-do-testi .what-we-do-img {
     padding-left: 20px;
   }
-  
+
   .testimonial-area.we-do-testi .whatwedo-img {
     margin-top: 0;
   }
-  
+
   .testimonial-area.we-do-testi .testimonial-item {
     padding: 5px 3px 0 3px;
   }
-  
+
   .testimonial-area.we-do-testi .testimonial-item .aboutp1 {
     font-size: 12px;
     margin-bottom: 7px;
@@ -885,6 +961,11 @@
   /* About Us */
   .about-area.about-default-wrapper .about-content .aboutp1 {
     font-size: 10px;
+  }
+
+  /* Service Button */
+  #service-btn-options > li {
+    font-size: 12px;
   }
 }
 

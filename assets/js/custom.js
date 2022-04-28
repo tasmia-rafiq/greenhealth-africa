@@ -373,3 +373,24 @@
     stylePreloader();
   });
 })(window.jQuery);
+
+
+/* ==========================================================================
+   Learn More Btn JS
+   ========================================================================== */
+  function serviceBtn() {
+    var space = document.getElementById("space");
+    var serviceButton = document.getElementById("service-btn");
+    var serviceOptions = document.getElementById("service-btn-options");
+
+    if (space.style.display === "none") {
+      space.style.display = "inline";
+      // serviceButton.innerHTML = "Read more";
+      serviceOptions.style.display = "none";
+    } else {
+      space.style.display = "none";
+      // serviceButton.innerHTML = "Read less";
+      serviceOptions.style.display = "inline";
+    }
+  } 
+
