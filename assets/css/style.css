@@ -106,6 +106,16 @@
 
 /* 
 ------------------------------------
+      Where we work section
+------------------------------------
+*/
+.testimonial-area.where-work-testi .container {
+  padding: 60px 80px;
+}
+
+
+/* 
+------------------------------------
       What we do section
 ------------------------------------
 */
@@ -137,22 +147,6 @@
   .testimonial-area.we-do-testi {
     padding-bottom: 1rem;
     padding-top: 1rem;
-  }
-
-  /* Where we work Section */
-  .testimonial-area.where-work-testi {
-    padding-bottom: -10rem;
-    padding-top: 2rem;
-  }
-  .testimonial-area.where-work-testi .testimonial-item{
-    width: 850px;
-    margin-left: 2rem;
-  }
-
-  .testimonial-area .testi-img2 {
-    /* margin-top: -1rem;
-    margin-left: 2rem; */
-    width: 550px;
   }
 
   /* Services */
@@ -314,14 +308,7 @@
   }
 
   /* Where we work Section */
-  .testimonial-area.where-work-testi {
-    padding-bottom: -10rem;
-  }
-
-  .testimonial-area.where-work-testi .testimonial-item {
-    width: 700px;
-    /* margin-left: 2rem; */
-  }
+  
   .testimonial-area.where-work-testi .testimonial-item .aboutp1{
     font-size: 18px;
   }
@@ -521,6 +508,15 @@
     margin-bottom: 7px;
   }
 
+  /* Where we work */
+  .testimonial-area.where-work-testi .container {
+    padding: 40px 20px;
+  }
+
+  .testimonial-area.where-work-testi .testi-inner-content .aboutp1 {
+    font-size: 15px;
+  }
+
   /* Team */
 
   .team-area .team-item {
@@ -646,17 +642,11 @@
   }
 
   /* Where we work Section */
-  .testimonial-area.where-work-testi {
-    padding-bottom: -20rem;
+  .testimonial-area.where-work-testi .container {
+    padding: 30px 20px;
   }
-
-  .testimonial-area.where-work-testi .testimonial-item {
-    width: 380px;
-    margin-left: 0rem;
-  }
-
-  .testimonial-area.where-work-testi .testimonial-item .aboutp1 {
-    font-size: 20px;
+  .testimonial-area.where-work-testi .testi-inner-content .aboutp1 {
+    font-size: 13px;
   }
 
   /* What we do Section */
@@ -797,12 +787,12 @@
 
   /* Where we work Section */
 
-  .testimonial-area.where-work-testi .testimonial-item {
-    width: 350px;
+  .testimonial-area.where-work-testi .container {
+    padding: 30px 20px;
   }
-
-  .testimonial-area.where-work-testi .testimonial-item .aboutp1 {
-    font-size: 20px;
+  
+  .testimonial-area.where-work-testi .testi-inner-content .aboutp1 {
+    font-size: 13px;
   }
 
   /* What we do Section */
