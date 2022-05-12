@@ -24,6 +24,10 @@
   Typography CSS
 -----------------------------------------------------------------------
 */
+@font-face{
+  src: url('../fonts/futura/futura-medium-bt.ttf');
+  font-family: Futura;
+}
 
 /* Animations */
 .animated-p1 {
@@ -83,6 +87,60 @@
       Team Section
 ------------------------------------
 */
+
+.testimonial-area .world-map-container {
+  padding: 0 40px;
+}
+
+.worldMap {
+  background-color: #1b1b1b;
+  /* width: 100%; */
+  height: 700px;
+  display: grid;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.worldMap .grid-item {
+  grid-template-columns: 1fr;
+}
+
+.worldMap svg {
+  /* position: absolute; */
+  /* height: 550px; */
+  /* margin-top: -20px; */
+  /* margin-left: -8rem; */
+}
+.worldMap .world-map-info{
+  margin-top: -15rem;
+  margin-left: 1.5rem;
+}
+.worldMap .world-map-info p {
+  margin-bottom: 10px;
+  color: #fff;
+  width: 75%;
+}
+
+svg path {
+  fill: #fff;
+  stroke: #333;
+  stroke-width: .25;
+}
+
+svg path:hover {
+  fill: #f1f1f1;
+  transition: .6s;
+}
+
+.testimonial-area.where-work-testi .testimonial-item .aboutp1 {
+  font-size: 18px;
+}
+
+/*
+------------------------------------
+      Team Section
+------------------------------------
+*/
 .team-area .container {
   padding-top: 10px;
   padding-bottom: 20px;
@@ -104,6 +162,35 @@
   padding-bottom: 3.5rem;
 }
 
+
+/*
+------------------------------------
+    Next & Previous Btn
+------------------------------------
+*/
+.next-prevBtn a{
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.home-btn {
+    background-color: #c9ff56;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #f1f1f1;
+  color: black;
+}
+
 /*
 ------------------------------------
     Service Learn More Btn
@@ -111,10 +198,10 @@
 */
 
 .service-btn {
-  margin-top: -2rem;
+  margin-top: -1rem;
   background-color: #c9ff56;
-  padding: 15px 20px;
-  font-size: 18px;
+  padding: 15px 50px;
+  font-size: 19px;
   margin-bottom: 20px;
 }
 
@@ -142,18 +229,14 @@
   padding-left: 10px;
 }
 
-/* #service-btn-options {
-  -webkit-transform: none;
-  transform: none;
-  transform: rotateX(0deg);
-  -webkit-transform: rotateX(0deg);
-  -moz-transform: rotateX(0deg);
-  -ms-transform: rotateX(0deg);
-  -o-transform: rotateX(0deg);
-  opacity: 1;
-  visibility: visible;
-  pointer-events: visible;
-} */
+/*
+------------------------------------
+      What we do section
+------------------------------------
+*/
+.footer-area.we-do-footer {
+  margin-top: 5px;
+}
 
 /*
 ------------------------------------
@@ -161,7 +244,7 @@
 ------------------------------------
 */
 .testimonial-area.where-work-testi .container {
-  padding: 60px 80px;
+  padding: 10px 0px;
 }
 
 
@@ -181,7 +264,8 @@
 }
 
 .main-content .mainContainer .bg-img img{
-  margin-left: 7rem;
+  margin-left: 17rem;
+  height: 510px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -193,11 +277,29 @@
     margin-top: -5.5rem;
   }
 
+  /* Map */
+  .testimonial-area .world-map-container{
+    padding: 0 30px;
+  }
+
+  /* Where we work */
+    .testimonial-area.where-work-testi .testimonial-item .aboutp1 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: -6px;
+    }
+
   /* What we do Section */
 
   .testimonial-area.we-do-testi {
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+  .footer-area.we-do-footer {
+    margin-top: 5px;
+  }
+  .testimonial-area.we-do-testi .aboutp1 {
+    font-size: 15px;
   }
 
   /* Services */
@@ -243,6 +345,23 @@
     width: 400px;
     text-align: left;
   }
+
+  /* Map */
+
+  .worldMap .world-map-info{
+    margin-left: 50px;
+    width: 100%;
+  }
+  .worldMap .world-map-info p{
+    font-size: 14px;
+  }
+
+  /* Where we work */
+    .testimonial-area.where-work-testi .testimonial-item .aboutp1 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      margin-top: -6px;
+    }
 
   /* What We Do Section */
 
@@ -358,10 +477,17 @@
     text-align: left;
   }
 
+  /* Map */
+  .worldMap .world-map-info{
+    margin-top: -20rem;
+  }
+
   /* Where we work Section */
 
   .testimonial-area.where-work-testi .testimonial-item .aboutp1{
-    font-size: 18px;
+    font-size: 13.5px;
+    margin-bottom: 10px;
+    margin-top: -6px;
   }
 
   /* What we do Section */
@@ -513,6 +639,21 @@
     text-align: left;
   }
 
+  /* Map */
+  .worldMap{
+    height: 550px;
+  }
+  .worldMap svg{
+    margin-top: 3rem;
+  }
+  .worldMap .world-map-info{
+    margin-top: -15rem;
+    margin-left: 20px;
+  }
+  .worldMap .world-map-info p{
+    width: 90%;
+  }
+
   /* What we do Section */
 
   .testimonial-area.we-do-testi img {
@@ -566,11 +707,13 @@
 
   /* Where we work */
   .testimonial-area.where-work-testi .container {
-    padding: 40px 20px;
+    padding: 10px 10px;
   }
 
   .testimonial-area.where-work-testi .testi-inner-content .aboutp1 {
-    font-size: 15px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: -6px;
   }
 
   /* Team */
@@ -643,6 +786,26 @@
     text-align: left;
   }
 
+     /* Map */
+     .worldMap {
+       height: 500px;
+     }
+  
+     .worldMap svg {
+       margin-top: 3rem;
+       /* width: 550px; */
+     }
+  
+     .worldMap .world-map-info {
+       margin-top: -10rem;
+       margin-left: 1.5rem;
+     }
+  
+     .worldMap .world-map-info p {
+       width: 85%;
+       font-size: 12px;
+     }
+
   /* What we do Section */
 
   .testimonial-area.we-do-testi .what-we-do-img {
@@ -681,6 +844,11 @@
   .page-header-area.services-header h2 {
     font-size: 22px;
   }
+
+  /* Next Prev Btn */
+  .next-prevBtn a {
+    padding: 10px 20px;
+  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -707,12 +875,34 @@
     text-align: left;
   }
 
+    /* Map */
+    .worldMap {
+      height: 370px;
+    }
+  
+    .worldMap svg {
+      margin-top: 3rem;
+      /* width: 550px; */
+    }
+  
+    .worldMap .world-map-info {
+      margin-top: -10rem;
+      margin-left: 1.5rem;
+    }
+  
+    .worldMap .world-map-info p {
+      width: 85%;
+      font-size: 7px;
+    }
+
   /* Where we work Section */
   .testimonial-area.where-work-testi .container {
-    padding: 30px 20px;
+    padding: 10px 10px;
   }
   .testimonial-area.where-work-testi .testi-inner-content .aboutp1 {
-    font-size: 13px;
+    font-size: 8px;
+    margin-bottom: 10px;
+    margin-top: -6px;
   }
 
   /* What we do Section */
@@ -795,6 +985,12 @@
     font-size: 12px;
   }
 
+    /* Next Prev Btn */
+    .next-prevBtn a {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+
   /* About Us */
   .about-area.about-default-wrapper .about-item .about-img {
     margin-top: -2rem;
@@ -864,11 +1060,12 @@
   /* Where we work Section */
 
   .testimonial-area.where-work-testi .container {
-    padding: 30px 20px;
+    padding: 7px 10px;
   }
 
   .testimonial-area.where-work-testi .testi-inner-content .aboutp1 {
-    font-size: 13px;
+    font-size: 8px;
+    margin-bottom: 10px;
   }
 
   /* What we do Section */
@@ -967,6 +1164,11 @@
   #service-btn-options > li {
     font-size: 12px;
   }
+    /* Next Prev Btn */
+    .next-prevBtn a {
+      padding: 8px 13px;
+      font-size: 12px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -2684,7 +2886,7 @@ section .container-fluid {
   .home-slider-wrapper.slider-default
   .slider-content-area
   .container {
-  padding-top: 167px;
+  padding-top: 107px;
   padding-bottom: 0;
 }
 @media only screen and (max-width: 1199px) {
@@ -3116,8 +3318,8 @@ section .container-fluid {
 */
 .about-area.about-default-wrapper .container {
   margin-top: 170px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .about-area.about-default-wrapper .about-img {
@@ -5067,6 +5269,7 @@ section .container-fluid {
 
 .testimonial-area.we-do-testi p {
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .testimonial-area.vision-mission .testi-row-2 {
@@ -6635,11 +6838,11 @@ img.logo-main {
 /* here */
 .mainContainer {
   position: relative;
-  margin-top: -150px;
+  margin-top: -110px;
 }
 .text-block {
   position: absolute;
-  margin-top: 230px;
+  margin-top: 200px;
   color: white;
   padding-right: 20px;
 }
@@ -6647,6 +6850,7 @@ img.logo-main {
   font-size: 60px;
   width: 600px;
   line-height: 1;
+  font-family: Futura;
 }
 img.logo-main {
   width: 254px !important;
@@ -6654,12 +6858,11 @@ img.logo-main {
 }
 .txtMain {
   color: #fff;
-  /* font-size: 20px; */
   font-size: 1.2em;
   font-weight: 300;
   line-height: 1.6;
   opacity: 0.8;
-  font-family: Lexend, sans-serif;
+  font-family: Futura;
   text-align: justify;
 }
 .aboutP {
@@ -6745,8 +6948,8 @@ img.logo-main {
   padding: 0;
 }
 .comment {
-  margin: 50px auto;
-  padding: 0px 70px 0px 42px;
+  margin: 20px auto;
+  padding: 0px 70px 5px 42px;
   /* width: 600px; */
   /* border-left: solid 2px #77ad04; */
 }

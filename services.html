@@ -46,6 +46,7 @@
       <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 
 <body>
@@ -248,8 +249,8 @@
             <div class="">
               <div class="">
                 <div class="mb-5 px-3">
-                  <div class="text-end">
-                    <button onclick="serviceBtn()" class="btn service-btn" id="service-btn">
+                  <div class="text-center">
+                    <button class="btn service-btn" id="service-btn">
                       Learn More
                     </button>
                   </div>
@@ -289,6 +290,23 @@
             </div>
           </div>
         </section>
+        <script>
+          $(document).ready(function () {
+            $('.service-btn').click(function () {
+              if ($(this).hasClass('expand')) {
+                $('#service-btn-options').slideUp(function () {
+                  $('.service-btn').removeClass('expand');
+                })
+              } else {
+                // $(this).addClass('height');
+                $(this).addClass('expand');
+                setTimeout(() => {
+                  $('#service-btn-options').stop().slideDown();
+                }, 200);
+              }
+            })
+          })
+        </script>
       </section>
       <!--== End About Area Wrapper ==-->
 
