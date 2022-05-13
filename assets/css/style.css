@@ -3317,9 +3317,9 @@ section .container-fluid {
 -----------------------------------------------------------------------
 */
 .about-area.about-default-wrapper .container {
-  margin-top: 170px;
+  margin-top: 10px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .about-area.about-default-wrapper .about-img {
@@ -6803,7 +6803,8 @@ h4.title.mb-30 {
 }
 
 .our-values .value_img {
-  padding-top: 10rem;
+  padding-top: 15rem;
+  padding-right: 2rem;
 }
 
 .divider-content1 {
