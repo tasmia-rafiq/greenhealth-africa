@@ -639,6 +639,11 @@ svg path:hover {
     text-align: left;
   }
 
+  /* What we do */
+    .testimonial-area.we-do-testi .whatwedo-img{
+      height: 200px;
+    }
+
   /* Map */
   .worldMap{
     height: 550px;
@@ -689,7 +694,7 @@ svg path:hover {
   }
 
   .testimonial-area.we-do-testi .what-we-do-img {
-    padding-left: 5rem;
+    /* padding-left: 5rem; */
   }
 
   .testimonial-area.we-do-testi .whatwedo-img {
@@ -809,8 +814,8 @@ svg path:hover {
   /* What we do Section */
 
   .testimonial-area.we-do-testi .what-we-do-img {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
   }
 
   .testimonial-area.we-do-testi .whatwedo-img {
@@ -908,8 +913,8 @@ svg path:hover {
   /* What we do Section */
 
   .testimonial-area.we-do-testi .what-we-do-img {
-    padding-left: 30px;
-    padding-right: 30px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
   }
 
   .testimonial-area.we-do-testi .whatwedo-img {
@@ -1071,11 +1076,13 @@ svg path:hover {
   /* What we do Section */
 
   .testimonial-area.we-do-testi .what-we-do-img {
-    padding-left: 20px;
+    /* padding-left: 20px; */
+    
   }
 
   .testimonial-area.we-do-testi .whatwedo-img {
     margin-top: 0;
+    height: 200px;
   }
 
   .testimonial-area.we-do-testi .testimonial-item {
@@ -2619,7 +2626,7 @@ section .container-fluid {
 .responsive-header-logo-area {
   /* padding-left: 30px; */
   padding: 0 30px;
-  width: 230px;
+  width: 200px;
   margin-top: -20px;
 }
 .responsive-header-item {
