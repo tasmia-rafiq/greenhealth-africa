@@ -2292,7 +2292,7 @@ section .container-fluid {
 
 @media only screen and (max-width: 1199px) {
   .header-area .header-navigation-area .main-menu.nav > li {
-    margin-right: 7px;
+    margin-right: 1px;
   }
 }
 .header-area .header-navigation-area .main-menu.nav > li.active > a {
@@ -2322,7 +2322,7 @@ section .container-fluid {
 @media only screen and (max-width: 1199px) {
   .header-area .header-navigation-area .main-menu.nav > li > a {
     font-size: 13px;
-    padding: 0 15px;
+    padding: 0 10px;
   }
 }
 .header-area .header-navigation-area .main-menu.nav > li > a:after {
@@ -3325,8 +3325,8 @@ section .container-fluid {
 */
 .about-area.about-default-wrapper .container {
   margin-top: 10px;
-  padding-top: 10px;
-  padding-bottom: 0px;
+  padding-top: 37px;
+  padding-bottom: 38px;
 }
 
 .about-area.about-default-wrapper .about-img {
@@ -3400,7 +3400,8 @@ section .container-fluid {
 }
 
 .about-item .about-content p {
-  margin-bottom: 7px;
+  margin-bottom: 5px;
+  font-size: 18px;
 }
 .about-item .about-content blockquote {
   color: #1b1b1b;
@@ -5275,7 +5276,7 @@ section .container-fluid {
 } */
 
 .testimonial-area.we-do-testi p {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 10px;
 }
 
@@ -6654,7 +6655,7 @@ section .container-fluid {
   background-image: url(../img/shape/1.png);
   background-size: cover;
   background-position: center top;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 @media only screen and (max-width: 1199px) {
   .footer-area {
@@ -6754,7 +6755,7 @@ section .container-fluid {
   }
 }
 .footer-area .footer-bottom {
-  margin-top: -15px;
+  margin-top: 0px;
 }
 @media only screen and (max-width: 1199px) {
   .footer-area .footer-bottom {
@@ -6764,7 +6765,7 @@ section .container-fluid {
 }
 .footer-area .footer-bottom .copyright {
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1;
 }
 @media only screen and (max-width: 479.98px) {
