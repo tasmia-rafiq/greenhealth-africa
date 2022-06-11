@@ -203,6 +203,9 @@ svg path:hover {
     Service Learn More Btn
 ------------------------------------
 */
+.about-area.about-default-wrapper .learn-more .container{
+  padding-bottom: 0;
+}
 
 .service-btn {
   margin-top: -1rem;
@@ -1352,7 +1355,7 @@ a img {
 }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 p:last-child {
   margin-bottom: 0;
@@ -1574,8 +1577,56 @@ section .container-fluid {
 }
 
 /*-------- Page Header Style Css --------*/
+.page-header-area.private-sector-header {
+  padding: 100px 0 90px !important;
+}
+.page-header-area.private-sector-header .page-header-content .title {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.page-header-area.org-header {
+  padding: 120px 0 70px !important;
+}
+.page-header-area.org-header .page-header-content .title {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.page-header-area.health-header {
+  padding: 100px 0 70px !important;
+}
+.page-header-area.health-header .page-header-content .title {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.page-header-area.women-header {
+  padding: 100px 0 70px !important;
+}
+.page-header-area.women-header .page-header-content .title {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.page-header-area.social-header {
+  padding: 100px 0 70px !important;
+}
+.page-header-area.social-header .page-header-content .title {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.page-header-area.community-header {
+  padding: 100px 0 70px !important;
+}
+.page-header-area.community-header .page-header-content .title {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
 .page-header-area {
-  padding: 90px 0 90px !important;
+  padding: 150px 0 90px !important;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -3384,9 +3435,18 @@ section .container-fluid {
     About CSS
 -----------------------------------------------------------------------
 */
+.about-area.about-default-wrapper.health-area .container{
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .about-area.about-default-wrapper .container {
-  margin-top: 10px;
+  /* margin-top: 10px;
   padding-top: 37px;
+  padding-bottom: 38px; */
+  margin-top: 0;
+  padding-top: 17px;
   padding-bottom: 38px;
 }
 
@@ -3462,7 +3522,7 @@ section .container-fluid {
 
 .about-item .about-content p {
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .about-item .about-content blockquote {
   color: #1b1b1b;
@@ -6973,14 +7033,14 @@ img.logo-main {
   padding-top: 0;
   text-align: left;
   width: auto;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 200;
   font-family: Lexend, sans-serif;
   color: #000;
   line-height: 1.5;
 }
 .titles {
-  font-size: 31px;
+  font-size: 20px;
   line-height: 45px;
   font-weight: 700;
   font-family: Lexend, sans-serif;
@@ -7072,7 +7132,7 @@ img.logo-main {
 }
 
 .comment-main {
-  margin: 50px auto;
+  margin: 20px auto;
   padding: 0px 50px 0px 80px;
 }
 
@@ -7088,9 +7148,10 @@ img.logo-main {
   position: relative;
   /* max-width: 500px; */
   padding-top: 0;
+  margin-bottom: 10px;
   text-align: left;
   /* width: auto; */
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 200;
   font-family: Lexend, sans-serif;
   color: #000;
@@ -7109,7 +7170,7 @@ img.logo-main {
 }
 
 .comment h3 {
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .about-area.services-about .container {

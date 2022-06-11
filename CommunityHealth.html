@@ -40,6 +40,9 @@
   <!--== Main Style CSS ==-->
   <link href="assets/css/style.css" rel="stylesheet" />
 
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
   <!--[if lt IE 9]>
       <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -177,12 +180,13 @@
 
     <main class="main-content">
       <!--== Start Page Header Area Wrapper ==-->
-      <div class="page-header-area services-header bg-img" data-bg-img="assets/img/about/community-systems.jpg">
+      <div class="page-header-area services-header community-header bg-img"
+        data-bg-img="assets/img/about/community-systems.jpg">
         <div class="container">
           <div class="row">
             <div class="col-12 text-center">
               <div class="page-header-content">
-                <h2 class="title" style="color: #c9ff56;" data-aos="fade-down" data-aos-duration="1000">
+                <h2 class="title" style="color: #b0ff06;" data-aos="fade-down" data-aos-duration="1000">
                   Community Health Systems Strengthening and Self-Care
                 </h2>
               </div>
@@ -234,7 +238,7 @@
               <div class="col-lg-6 col-md-6 bullet-content" style="background-color: #eefecc">
                 <div class="about-content" data-aos="fade-down">
                   <div class="comment">
-                    <h3>Our services include:</h3>
+                    <h3 class="titles">Our services include:</h3>
                     <p style="background-color: #eefecc">
                       Training and support of community health workers (CHWs)
                     </p>
@@ -255,7 +259,7 @@
         </div>
 
         <!--== Next & Previous Buttons ==-->
-        <section class="position-relative z-index-1">
+        <!-- <section class="position-relative z-index-1">
           <div class="container">
             <div class="">
               <div class="">
@@ -271,7 +275,72 @@
               </div>
             </div>
           </div>
+        </section> -->
+
+        <!--== Learn More Button ==-->
+        <section class="learn-more position-relative z-index-1" style="margin-top: -2rem;">
+          <div class="container">
+            <div class="">
+              <div class="">
+                <div class="mb-0 px-3">
+                  <div class="text-center">
+                    <button class="btn service-btn" id="service-btn">
+                      Learn More
+                    </button>
+                  </div>
+
+                  <span id="space"></span>
+
+                  <div class="d-flex justify-content-center">
+                    <ul class="learn-more-tab" id="service-btn-options">
+                      <li>
+                        <a href="Organizational.html">Organizational Strengthening</a>
+                      </li>
+                      <li>
+                        <a href="HealthProgram.html">Health Program Technical Support</a>
+                      </li>
+                      <li>
+                        <a href="WomenandGirls.html">Women and Girls’ Empowerment and Social Inclusion
+                        </a>
+                      </li>
+                      <li>
+                        <a href="SocialandBehavior.html">Social and Behavior Change Communications and
+                          Social Marketing
+                        </a>
+                      </li>
+                      <li>
+                        <a href="CommunityHealth.html">Community Health Systems Strengthening and
+                          Self-Care
+                        </a>
+                      </li>
+                      <li>
+                        <a href="PrivateSector.html">Private Sector Engagement
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
+        <script>
+          $(document).ready(function () {
+            $('.service-btn').click(function () {
+              if ($(this).hasClass('expand')) {
+                $('#service-btn-options').slideUp(function () {
+                  $('.service-btn').removeClass('expand');
+                })
+              } else {
+                // $(this).addClass('height');
+                $(this).addClass('expand');
+                setTimeout(() => {
+                  $('#service-btn-options').stop().slideDown();
+                }, 200);
+              }
+            })
+          })
+        </script>
       </section>
     </main>
 
