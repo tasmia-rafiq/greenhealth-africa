@@ -318,6 +318,13 @@ svg path:hover {
   }
 
   /* Services */
+  .main-content .page-header-area.community-header{
+    padding: 90px 0 60px !important;
+  }
+  .main-content .page-header-area.community-header .page-header-content .title{
+    font-size: 35px;
+  }
+
   .about-area.services-about .aboutp1 {
     padding-left: 30px;
     padding-right: 30px;
@@ -331,7 +338,7 @@ svg path:hover {
     margin-top: 0;
   }
   .about-area.orgs-area h3 {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.2;
   }
 }
@@ -360,6 +367,50 @@ svg path:hover {
     width: 400px;
     text-align: left;
   }
+
+    /* Page header */
+    .main-content .page-header-area {
+      padding: 90px 0 70px !important;
+    }
+    .main-content .page-header-area.org-header{
+      padding: 50px 0 70px !important;
+    }
+
+    .main-content .page-header-area.health-header {
+      padding: 50px 0 70px !important;
+    }
+    .main-content .page-header-area.health-header .page-header-content .title{
+      font-size: 30px;
+    }
+
+    .main-content .page-header-area.women-header {
+      padding: 60px 0 70px !important;
+    }
+    .main-content .page-header-area.women-header .page-header-content .title{
+      font-size: 30px;
+    }
+
+    .main-content .page-header-area.social-header {
+      padding: 60px 0 70px !important;
+    }
+    .main-content .page-header-area.social-header .page-header-content .title{
+      font-size: 30px;
+    }
+
+    .main-content .page-header-area.community-header {
+      padding: 70px 0 70px !important;
+    }
+    .main-content .page-header-area.community-header .page-header-content .title{
+      font-size: 30px;
+    }
+
+    .main-content .page-header-area.private-sector-header {
+      padding: 70px 0 70px !important;
+    }
+    .main-content .page-header-area.private-sector-header .page-header-content .title{
+      font-size: 30px;
+    }
+
 
   /* Our Partners */
     .team-area .our-partners .content h4 {
@@ -455,6 +506,13 @@ svg path:hover {
   }
 
   /* Services */
+  .service-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+    .main-content .page-header-area.org-header .page-header-content .title{
+      font-size: 30px;
+    }
   .about-area.services-about .aboutp1 {
     padding-left: 50px;
     padding-right: 50px;
@@ -462,10 +520,10 @@ svg path:hover {
   }
 
   .about-area.orgs-area .aboutp1 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .about-area.orgs-area .comment h3 {
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 0;
     padding-bottom: 10px;
   }
@@ -496,6 +554,39 @@ svg path:hover {
     width: 350px;
     text-align: left;
   }
+
+    /* Page header */
+    .main-content .page-header-area {
+      padding: 90px 0 70px !important;
+    }
+
+    .main-content .page-header-area.women-header {
+      padding: 60px 0 70px !important;
+    }
+    .main-content .page-header-area.women-header .page-header-content .title{
+      font-size: 22px;
+    }
+
+    .main-content .page-header-area.social-header {
+      padding: 60px 0 50px !important;
+    }
+    .main-content .page-header-area.social-header .page-header-content .title{
+      font-size: 25px;
+    }
+
+    .main-content .page-header-area.community-header {
+      padding: 60px 0 70px !important;
+    }
+    .main-content .page-header-area.community-header .page-header-content .title{
+      font-size: 22px;
+    }
+
+    .main-content .page-header-area.private-sector-header {
+      padding: 60px 0 70px !important;
+    }
+    .main-content .page-header-area.private-sector-header .page-header-content .title{
+      font-size: 22px;
+    }
 
     /* Our Partners */
     .team-area .our-partners .content h4 {
@@ -621,7 +712,7 @@ svg path:hover {
   }
 
   .about-area.orgs-area .comment h3 {
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 0;
     padding-bottom: 10px;
   }
@@ -707,6 +798,46 @@ svg path:hover {
 }
 
 @media only screen and (max-width: 575px) {
+  /* Page header */
+  .main-content .page-header-area {
+    padding: 70px 0 50px !important;
+  }
+
+    .main-content .page-header-area.health-header {
+      padding: 30px 0 30px;
+    }
+    .main-content .page-header-area.health-header .page-header-content .title{
+      font-size: 22px;
+    }
+
+    .main-content .page-header-area.women-header {
+      padding: 50px 0 50px !important;
+    }
+    .main-content .page-header-area.women-header .page-header-content .title{
+      font-size: 18px;
+    }
+
+    .main-content .page-header-area.social-header {
+      padding: 50px 0 50px !important;
+    }
+    .main-content .page-header-area.social-header .page-header-content .title{
+      font-size: 18px;
+    }
+
+    .main-content .page-header-area.community-header {
+      padding: 60px 0 60px !important;
+    }
+    .main-content .page-header-area.community-header .page-header-content .title{
+      font-size: 18px;
+    }
+
+    .main-content .page-header-area.private-sector-header {
+      padding: 60px 0 60px !important;
+    }
+    .main-content .page-header-area.private-sector-header .page-header-content .title{
+      font-size: 18px;
+    }
+
   /* Our Partners */
     .team-area .our-partners .content h4 {
       font-size: 14px;
@@ -786,6 +917,9 @@ svg path:hover {
   }
 
   /* Services */
+  .about-area.orgs-area h3 {
+    font-size: 15px;
+  }
   .about-area.services-about .aboutp1 {
     padding-left: 30px;
     padding-right: 0;
@@ -1033,6 +1167,27 @@ svg path:hover {
   }
 
   /* Services */
+
+  /* <!-- Page header */
+    .main-content .page-header-area.org-header .page-header-content .title{
+      font-size: 22px;
+    }
+
+    .main-content .page-header-area.social-header {
+      padding: 30px 0 30px !important;
+    }
+    .main-content .page-header-area.social-header .page-header-content .title{
+      font-size: 16px;
+    }
+
+    .main-content .page-header-area.private-sector-header {
+      padding: 45px 0 45px !important;
+    }
+    .main-content .page-header-area.private-sector-header .page-header-content .title{
+      font-size: 16px;
+    }
+
+    /* Page header --> */
   .about-area.services-about .container {
     padding-left: 0;
   }
@@ -1042,6 +1197,12 @@ svg path:hover {
   .about-area.services-about .comment-main h3 {
     font-size: 18px;
   }
+  .about-area.orgs-area .comment h3{
+    font-size: 15px;
+  }
+    .about-area.orgs-area .comment p {
+      font-size: 12px;
+    }
 
   .about-area.orgs-area .aboutp1 {
     font-size: 12px;
@@ -1215,9 +1376,9 @@ svg path:hover {
   }
 
   /* Services */
-  .about-area.orgs-area .comment h3 {
+  /* .about-area.orgs-area .comment h3 {
     font-size: 18px;
-  }
+  } */
   .about-area.orgs-area .comment p{
     font-size: 12px;
   }
