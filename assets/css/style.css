@@ -257,7 +257,7 @@ svg path:hover {
 ------------------------------------
 */
 .testimonial-area.where-work-testi .container {
-  padding: 10px 0px;
+  padding: 10px 30px;
 }
 
 
@@ -423,18 +423,18 @@ svg path:hover {
   /* Map */
 
   .worldMap .world-map-info{
-    margin-left: 50px;
-    width: 100%;
+    /* margin-left: 50px; */
+    max-width: 100%;
   }
   .worldMap .world-map-info p{
-    font-size: 14px;
+    font-size: 10px;
   }
 
   /* Where we work */
     .testimonial-area.where-work-testi .testimonial-item .aboutp1 {
-      font-size: 16px;
-      margin-bottom: 10px;
-      margin-top: -6px;
+      font-size: 14px;
+      margin-bottom: 5px;
+      margin-top: -4px;
     }
 
   /* What We Do Section */
@@ -601,16 +601,17 @@ svg path:hover {
     }
 
   /* Map */
-  .worldMap .world-map-info{
-    margin-top: -20rem;
+  .worldMap {
+    height: 350px;
+  }
+  .worldMap .world-map-info p{
+    font-size: 9px;
   }
 
   /* Where we work Section */
 
   .testimonial-area.where-work-testi .testimonial-item .aboutp1{
-    font-size: 13.5px;
-    margin-bottom: 10px;
-    margin-top: -6px;
+    font-size: 12px;
   }
 
   /* What we do Section */
@@ -768,19 +769,7 @@ svg path:hover {
     }
 
   /* Map */
-  .worldMap{
-    height: 550px;
-  }
-  .worldMap svg{
-    margin-top: 3rem;
-  }
-  .worldMap .world-map-info{
-    margin-top: -15rem;
-    margin-left: 20px;
-  }
-  .worldMap .world-map-info p{
-    width: 90%;
-  }
+  
 
   /* What we do Section */
 
@@ -839,6 +828,11 @@ svg path:hover {
     }
     .main-content .page-header-area.private-sector-header .page-header-content .title{
       font-size: 18px;
+    }
+
+    /* Map */
+    .worldMap {
+      height: 280px;
     }
 
   /* Our Partners */
@@ -972,25 +966,6 @@ svg path:hover {
     text-align: left;
   }
 
-     /* Map */
-     .worldMap {
-       height: 500px;
-     }
-  
-     .worldMap svg {
-       margin-top: 3rem;
-       /* width: 550px; */
-     }
-  
-     .worldMap .world-map-info {
-       margin-top: -10rem;
-       margin-left: 1.5rem;
-     }
-  
-     .worldMap .world-map-info p {
-       width: 85%;
-       font-size: 12px;
-     }
 
   /* What we do Section */
 
@@ -1068,21 +1043,9 @@ svg path:hover {
 
     /* Map */
     .worldMap {
-      height: 370px;
+      height: 220px;
     }
-  
-    .worldMap svg {
-      margin-top: 3rem;
-      /* width: 550px; */
-    }
-  
-    .worldMap .world-map-info {
-      margin-top: -10rem;
-      margin-left: 1.5rem;
-    }
-  
-    .worldMap .world-map-info p {
-      width: 85%;
+    .worldMap .world-map-info p{
       font-size: 7px;
     }
 
@@ -7071,7 +7034,7 @@ section .container-fluid {
 }
 @media only screen and (max-width: 479.98px) {
   .footer-area .footer-bottom .copyright {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 .footer-area .footer-bottom .copyright i {
