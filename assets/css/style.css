@@ -1042,8 +1042,11 @@ svg path:hover {
   }
 
     /* Map */
+    .testimonial-area .world-map-container{
+      padding: 0 0px;
+    }
     .worldMap {
-      height: 220px;
+      height: 240px;
     }
     .worldMap .world-map-info p{
       font-size: 7px;
