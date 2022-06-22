@@ -215,7 +215,7 @@ svg path:hover {
   background-color: #c9ff56;
   padding: 10px 25px;
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 #service-btn-options {
@@ -292,7 +292,7 @@ svg path:hover {
 
   /* About */
   .about-area .about-item .about-content p{
-    font-size: 16px;
+    font-size: 14px;
   }
 
   /* Map */
@@ -3576,12 +3576,12 @@ section .container-fluid {
   padding-top: 37px;
   padding-bottom: 38px; */
   margin-top: 0;
-  padding-top: 17px;
-  padding-bottom: 38px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .about-area.about-default-wrapper .about-img {
-  width: 100%;
+  width: 90%;
 }
 
 @media only screen and (max-width: 1399.98px) {
@@ -6917,15 +6917,16 @@ section .container-fluid {
   background-image: url(../img/shape/1.png);
   background-size: cover;
   background-position: center top;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 @media only screen and (max-width: 1199px) {
   .footer-area {
-    padding: 0px 0 30px;
+    padding: 0px 0 10px;
     margin-top: -70px;
   }
     .footer-area .footer-bottom .copyright{
-      margin-top: 20px;
+      margin-top: 10px;
+      text-align: left;
     }
 }
 
@@ -7032,7 +7033,7 @@ section .container-fluid {
 }
 .footer-area .footer-bottom .copyright {
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
 }
 @media only screen and (max-width: 479.98px) {
@@ -7305,6 +7306,6 @@ img.logo-main {
 
 .about-area.services-about .container {
   margin-top: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
