@@ -213,8 +213,8 @@ svg path:hover {
 .service-btn {
   margin-top: -1rem;
   background-color: #c9ff56;
-  padding: 15px 50px;
-  font-size: 19px;
+  padding: 10px 25px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
@@ -7281,7 +7281,7 @@ img.logo-main {
   margin-bottom: 10px;
   text-align: left;
   /* width: auto; */
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 200;
   font-family: Lexend, sans-serif;
   color: #000;
