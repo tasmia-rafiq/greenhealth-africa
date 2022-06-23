@@ -348,7 +348,7 @@ svg path:hover {
 
 @media only screen and (max-width: 991px) {
   .responsive-header {
-    height: 75px;
+    height: 70px;
   }
 
   .main-content .mainContainer {
@@ -769,7 +769,7 @@ svg path:hover {
     }
 
   /* Map */
-  
+
 
   /* What we do Section */
 
@@ -840,7 +840,7 @@ svg path:hover {
       font-size: 14px;
       margin-top: 10px;
     }
-  
+
     .team-area .our-partners .team-item .inner-content .thumb {
       max-width: 80%;
       /* height: 90px; */
@@ -1237,7 +1237,15 @@ svg path:hover {
   }
 
   .responsive-header {
-    height: 70px;
+    height: 60px;
+  }
+  .responsive-header-item .responsive-header-logo-area .logo-main{
+    width: 90px !important;
+    margin-top: 0.4rem;
+  }
+  .responsive-header-item .btn-menu{
+    width: 50px !important;
+
   }
 
   .main-content .mainContainer .bg-img img {
@@ -1271,7 +1279,7 @@ svg path:hover {
 
   .testimonial-area.we-do-testi .what-we-do-img {
     /* padding-left: 20px; */
-    
+
   }
 
   .testimonial-area.we-do-testi .whatwedo-img {
@@ -2868,8 +2876,8 @@ section .container-fluid {
 .responsive-header-logo-area {
   /* padding-left: 30px; */
   padding: 0 30px;
-  width: 200px;
-  margin-top: -20px;
+  width: 180px;
+  /* margin-top: -20px; */
 }
 .responsive-header-item {
   -webkit-box-align: center;
@@ -2878,17 +2886,17 @@ section .container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100px;
+  /* height: 100px; */
 }
 .responsive-header-item .btn-menu {
   background-color: #1b1b1b;
   border: none;
   color: #fff;
-  font-size: 32px;
+  font-size: 25px;
   height: 55px;
   display: inline-block;
   width: 100px;
-  margin-top: -30px;
+  /* margin-top: -30px; */
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -3576,8 +3584,8 @@ section .container-fluid {
   padding-top: 37px;
   padding-bottom: 38px; */
   margin-top: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .about-area.about-default-wrapper .about-img {
@@ -7130,7 +7138,7 @@ img.logo-main {
   font-family: Futura;
 }
 img.logo-main {
-  width: 254px !important;
+  width: 144px !important;
   border-radius: 12px;
 }
 .txtMain {
