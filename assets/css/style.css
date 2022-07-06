@@ -100,6 +100,22 @@
   border-radius: 4px;
 }
 
+/* responsive linkedin */
+.responsive-header.linkedin{
+  height: 40px;
+  border-bottom: 1px solid #1b1b1b;
+}
+.responsive-header.linkedin .linkedin-btn {
+  padding: 8px 15px 3px 10px;
+}
+.responsive-header.linkedin a {
+  padding: 5px 10px;
+  background-color: #aeff00;
+  color: #161616;
+  font-size: 16px;
+  font-family: Futura;
+  border-radius: 4px;
+}
 
 
 /*
