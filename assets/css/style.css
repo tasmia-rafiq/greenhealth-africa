@@ -118,6 +118,9 @@
 }
 
 @media only screen and (max-width: 375px){
+  .responsive-header.linkedin {
+      height: 35px;
+    }
   .responsive-header.linkedin .linkedin-btn {
       padding: 8px 0px 3px 5px;
     }
