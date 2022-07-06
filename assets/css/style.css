@@ -82,6 +82,26 @@
   animation-name: fadeInDown;
 }
 
+/* 
+------------------------------------
+      LinkedIn tab
+------------------------------------
+*/
+.linkedin .linkedin-btn {
+  padding: 10px 30px 3px 30px;
+}
+
+.linkedin a {
+  padding: 7px 12px;
+  background-color: #aeff00;
+  color: #161616;
+  font-size: 18px;
+  font-family: Futura;
+  border-radius: 4px;
+}
+
+
+
 /*
 ------------------------------------
       Map Section
@@ -2448,7 +2468,7 @@ section .container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 8px 1vw;
+  padding: 0px 1vw;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -7049,8 +7069,6 @@ h4.title.mb-30 {
   padding-bottom: 20px;
   padding-right: 50px;
 }
-
-
 
 .our-values .value_img {
 }
