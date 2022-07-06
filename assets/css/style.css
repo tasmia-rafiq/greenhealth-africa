@@ -88,7 +88,7 @@
 ------------------------------------
 */
 .linkedin .linkedin-btn {
-  padding: 10px 30px 3px 30px;
+  padding: 10px 33px 6px 30px;
 }
 
 .linkedin a {
@@ -96,8 +96,15 @@
   background-color: #aeff00;
   color: #161616;
   font-size: 18px;
+  font-weight: 700;
   font-family: Futura;
   border-radius: 4px;
+}
+
+.linkedin a:hover{
+  background-color: #1b1b1b;
+  color: #aeff00;
+  border: 2px solid #fff;
 }
 
 /* responsive linkedin */
@@ -113,8 +120,14 @@
   background-color: #aeff00;
   color: #161616;
   font-size: 16px;
+  font-weight: 700;
   font-family: Futura;
   border-radius: 4px;
+}
+.responsive-header.linkedin a:hover {
+  background-color: #1b1b1b;
+  color: #aeff00;
+  border: 2px solid #fff;
 }
 
 @media only screen and (max-width: 375px){
@@ -126,10 +139,11 @@
     }
 
     .responsive-header.linkedin a {
-      padding: 3px 7px;
+      padding: 5px 7px;
       background-color: #aeff00;
       color: #161616;
       font-size: 12px;
+      font-weight: 700;
       font-family: Futura;
       border-radius: 4px;
     }
