@@ -121,6 +121,15 @@
   .responsive-header.linkedin .linkedin-btn {
       padding: 8px 0px 3px 5px;
     }
+
+    .responsive-header.linkedin a {
+      padding: 3px 7px;
+      background-color: #aeff00;
+      color: #161616;
+      font-size: 12px;
+      font-family: Futura;
+      border-radius: 4px;
+    }
 }
 
 
