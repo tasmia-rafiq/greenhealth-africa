@@ -88,14 +88,14 @@
 ------------------------------------
 */
 .linkedin .linkedin-btn {
-  padding: 10px 33px 6px 30px;
+  padding: 5px 33px 3px 30px;
 }
 
 .linkedin a {
-  padding: 7px 12px;
+  padding: 4px 8px;
   background-color: #aeff00;
   color: #161616;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
   font-family: Futura;
   border-radius: 4px;
@@ -184,12 +184,18 @@
 .worldMap .world-map-info{
   margin-top: -5.5rem;
   margin-left: 1.5rem;
+  margin-bottom: 5px;
 }
 .worldMap .world-map-info p {
   margin-bottom: 0;
   color: #fff;
   max-width: 100%;
-  font-size: 11px;
+  font-size: 10px;
+}
+.highlight-country {
+  padding: 0 5px;
+  background-color: #c9ff56;
+  color: #000;
 }
 
 svg path {
@@ -279,11 +285,12 @@ svg path:hover {
 }
 
 .service-btn {
-  margin-top: -1rem;
+  /* margin-top: -1rem; */
+  margin: 10px auto;
   background-color: #c9ff56;
   padding: 10px 25px;
   font-size: 16px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 #service-btn-options {
@@ -346,7 +353,7 @@ svg path:hover {
 
 .main-content .mainContainer .bg-img img{
   margin-left: 17rem;
-  height: 510px;
+  height: 485px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -1666,6 +1673,9 @@ table p {
   padding-left: 0;
   padding-right: 0;
 }
+.no-gutter.values {
+  align-items: center;
+}
 
 /*-------- Spacing Style Css --------*/
 section .container,
@@ -2511,12 +2521,12 @@ section .container-fluid {
   height: 90px;
 } */
 .header-area.header-default .header-align.align-default {
-  /* background-color: #161616; */
   background-color: #1b1b1b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 0px 1vw;
+  height: 70px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -2534,8 +2544,6 @@ section .container-fluid {
   display: -ms-flexbox;
   display: flex;
   /* padding: 18px 3vw; */
-  height: 90px;
-  width: 100px;
 }
 @media only screen and (max-width: 1399.98px) {
   .header-area.header-default .header-align.align-default .align-left,
@@ -2584,8 +2592,7 @@ section .container-fluid {
   color: #ffffffbf; /*Updated*/
   font-size: 14px;
   font-weight: 400;
-  height: 100px;
-  line-height: 100px;
+  line-height: 50px;
   /* padding: 0 21px; */
   padding: 0 15px;
   position: relative;
@@ -7168,7 +7175,7 @@ img.logo-main {
   font-family: Futura;
 }
 img.logo-main {
-  width: 144px !important;
+  width: 124px !important;
   border-radius: 12px;
 }
 .txtMain {
